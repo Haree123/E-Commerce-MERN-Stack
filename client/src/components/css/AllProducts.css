@@ -1,0 +1,23 @@
+.allproducts {
+  cursor: pointer;
+  display: inline-flex;
+  margin: 15px 0;
+  margin-right: 25px;
+  width: 15%;
+}
+
+.allproducts-img {
+  height: 280px;
+  margin: auto;
+  width: 250px;
+}
+
+.allproducts-name {
+  font-size: 13.5px;
+  padding-top: 10px;
+}
+
+.allproducts-price {
+  font-size: 13px;
+  padding-top: 3.5px;
+}

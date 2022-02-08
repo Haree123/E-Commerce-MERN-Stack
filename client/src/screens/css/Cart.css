@@ -1,0 +1,143 @@
+.cart-empty {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cart-empty-p1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cart-empty-p2 {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.cart-empty-btn {
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  color: white;
+  height: 35px;
+  width: 100px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  padding: 25px 10rem;
+}
+
+.cart-left {
+  border: 1px solid black;
+  padding: 12px;
+  width: 55%;
+}
+
+.cart-left-header {
+  padding-bottom: 15px;
+}
+
+.cart-left-delivery-pincode {
+  float: right;
+}
+
+.cart-left-contents {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.cart-left-brand {
+  color: gray;
+  font-size: smaller;
+  margin-top: 4px;
+}
+.cart-left-seller {
+  color: gray;
+  font-size: small;
+  margin-top: 5px;
+}
+.cart-left-price {
+  font-weight: 600;
+  margin-top: 18px;
+}
+.cart-left-delivery-time {
+  margin-left: auto;
+}
+.cart-left-delivery-price {
+  color: grey;
+}
+
+.cart-left-contents-last-child {
+  margin-bottom: 8px;
+}
+
+.cart-left-img {
+  height: 100px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.cart-left-content-footer {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.cart-left-btn-quantity {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  height: 34px;
+  margin-right: 10px;
+  padding: 6.5px;
+  width: 29px;
+}
+
+.cart-left-btn-remove {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  margin-left: 15px;
+}
+
+.cart-right {
+  border: 1px solid black;
+  height: 50%;
+  margin-left: 25px;
+  padding: 15px;
+  width: 20%;
+}
+
+.cart-right-header {
+  margin-bottom: 10px;
+}
+
+.cart-right-contents {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.cart-right-content-padding {
+  margin-bottom: 18px;
+}
+.cart-right-content-padding:first-child {
+  margin-top: 15px;
+}
+
+.cart-right-contents-margin {
+  float: right;
+}
+
+.cart-right-buy-now {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Graphik Web Regular', 'AG_Helvetica', sans-serif;
+}
+
+img {
+  object-fit: contain;
+}
+
+.link-tag-nostyle {
+  color: black;
+  text-decoration: none;
+}
+
+.link-color {
+  color: white;
+}
+
+@font-face {
+  font-family: 'Graphik Web Regular';
+  src: url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot');
+  src: url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.svg#Graphik Web Regular')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'AG_Helvetica';
+  src: url('//db.onlinewebfonts.com/t/63137a821976b7fdfcf941ab1528cb19.eot');
+  src: url('//db.onlinewebfonts.com/t/63137a821976b7fdfcf941ab1528cb19.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/63137a821976b7fdfcf941ab1528cb19.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/63137a821976b7fdfcf941ab1528cb19.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/63137a821976b7fdfcf941ab1528cb19.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/63137a821976b7fdfcf941ab1528cb19.svg#AG_Helvetica')
+      format('svg');
+}
